@@ -6,7 +6,6 @@
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -42,9 +41,15 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
+.face {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 2rem;
+  
+}
 .title,
 .description {
   text-align: center;
@@ -82,13 +87,13 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 200px;
 }
 
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
+  color: #cfdff1;
   border-color: #0070f3;
 }
 
@@ -113,4 +118,31 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.box{
+  width:90px;
+  height: 90px;
+  border-radius : 90%;
+  overflow:hidden;
+}
+
+.box{
+  width:90px;
+  height: 90px;
+  border-radius : 90%;
+  overflow:hidden;
+}
+
+.bo{
+  width:40px;
+  height: 40px;
+  border-radius : 90%;
+  overflow:hidden;
+}
+
+.profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
