@@ -30,7 +30,7 @@ export default function Home() {
         </h2> */}
         
         {/* <Link href="post/first-post"></Link> */}
-        <h3 className={styles.face}>Hi<br></br><Image src="img/IMG_1154.jpg" height={1} width={1} layout={"fill"}   objectFit={"cover"}/><br></br></h3>
+        <h3 className={styles.face}>Hi<br></br><Image src="img/IMG_1154.jpg" height={10} width={10} layout={"fill"}   objectFit={"cover"}/><br></br></h3>
         <h2>I am SeongHee</h2> 
     
         <p className={styles.description}>
@@ -40,7 +40,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="profile.html" className={styles.card}> 
-          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={90} width={90} /> 
+          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={120} width={120} /> 
             <h3> PROFILE </h3>
 
             {/* <p>Find in-depth information about Next.js features and API.</p> */}
