@@ -32,7 +32,7 @@ export default function Home() {
         {/* <Image src="img/IMG_1154.jpg" height={10} width={10} layout={"fill"}   objectFit={"cover"}/> */}
         {/* <Link href="post/first-post"></Link> */}
         <h3 className={styles.face}>Hi!<br></br></h3>
-              <Image  src="img/IMG_1154.jpg" height={150} width={150} /> 
+              <Image  src="img/IMG_1154.jpg" height={160} width={250} /> 
         <h2>I am SeongHee</h2> 
     
         <p className={styles.description}>
@@ -40,16 +40,22 @@ export default function Home() {
           {/* <code className={styles.code}>pages/index.js</code> */}
         </p>
 
-        <div className={styles.grid}>
-          <a href="profile.html" className={styles.card}> 
-          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={300} width={300} /> 
-            <h3> PROFILE </h3>
 
+
+       
+
+
+        <div className={styles.grid}>
+        <Link href="/post/first-post">
+          <a href="profile.html" className={styles.card}>
+          <img className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg"/> 
+            <h3> PROFILE </h3>
             {/* <p>Find in-depth information about Next.js features and API.</p> */}
           </a>
+          </Link>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={90} width={90} /> 
+          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100} /> 
             <h3> TMI </h3>
             {/* <p>Learn about Next.js in an interactive course with quizzes!</p> */}
           </a> 
@@ -58,7 +64,7 @@ export default function Home() {
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={90} width={90} /> 
+          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100} /> 
             <h3>PROJECT </h3>
             {/* <p>Discover and deploy boilerplate example Next.js projects.</p> */}
           </a>
