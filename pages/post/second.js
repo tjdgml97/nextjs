@@ -14,7 +14,8 @@ export default function FirstPost() {
      </Link>
 
 
-<div><h3>MBTI : </h3><h4> Park SeongHee</h4></div>
+<div><h3>MBTI : </h3> ENFP <Link href="https://ddnews.co.kr/enfp-%ED%8A%B9%EC%A7%95/"><a><Image  src="img/toto.jpg" height={100} width={100}  /> </a></Link>
+</div>
    <h3>FAVORITE : </h3>
    <h4>food</h4>
    <div>수박 ,불닭볶음면 , 딸기라떼 </div>
