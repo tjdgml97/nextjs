@@ -63,7 +63,7 @@ export default function Home() {
          </Link>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="https://github.com/tjdgml97/nextjs"
             className={styles.card}
           >
           <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100} /> 
