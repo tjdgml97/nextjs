@@ -12,41 +12,10 @@ export default function FirstPost() {
      <a className={styles.face}> <Image  src="img/IMG_1154.jpg" height={160} width={250} /> 
  I am SeongHee</a>
      </Link>
-        <p className={styles.description}>
-          {/* Get started by editing{' '} */}
-          {/* <code className={styles.code}>pages/index.js</code> */}
-        </p>
-
-        <div className={styles.grid}>
-          <Link href="/post/first-post">
-          <a className={styles.card}>
-          <Image className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100}  /> 
-            <h3> PROFILE </h3>
-            {/* <p>Find in-depth information about Next.js features and API.</p> */}
-          </a>
-          </Link>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-          <Image className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100}  /> 
-            <h3> FAVORITE</h3>
-            {/* <p>Learn about Next.js in an interactive course with quizzes!</p> */}
-          </a> 
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-          <Image className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100}  /> 
-            <h3>MBTI</h3>
-            {/* <p>Learn about Next.js in an interactive course with quizzes!</p> */}
-          </a> 
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-           <img className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg"/> 
-            <h3>PROJECT </h3>
-            {/* <p>Discover and deploy boilerplate example Next.js projects.</p> */}
-          </a>
-          </div>
+      
+        <div>Park SeongHee</div>
+        <div>business administration ,computer science</div>
+        <div>21801026@handong.ac.kr</div>
 
           <footer className={styles.footer}>
         <a
