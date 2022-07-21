@@ -49,7 +49,7 @@ export default function Home() {
         <div className={styles.grid}>
         <Link href="/post/first-post">
           <a  className={styles.card}>
-          <img className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg"/> 
+          <Image className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100}  /> 
             <h3> PROFILE </h3>
             {/* <p>Find in-depth information about Next.js features and API.</p> */}
           </a>
