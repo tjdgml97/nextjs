@@ -49,7 +49,7 @@ export default function Home() {
         <div className={styles.grid}>
         <Link href="/post/first-post">
           <a  className={styles.card}>
-          <Image className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100}  /> 
+          <Image className={styles.b} src="/img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100}  /> 
             <h3> PROFILE </h3>
             {/* <p>Find in-depth information about Next.js features and API.</p> */}
           </a>
@@ -58,8 +58,7 @@ export default function Home() {
         <Link href="/post/second">
           <a  className={styles.card}>
           <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100} /> 
-            <h3> TMI </h3>
-            {/* <p>Learn about Next.js in an interactive course with quizzes!</p> */}
+            <h3> TMI </h3>          
           </a> 
          </Link>
 
