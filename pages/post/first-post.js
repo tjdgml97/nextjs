@@ -10,13 +10,13 @@ export default function FirstPost() {
      <h1>PROFILE</h1>
      <Link href="/">
      <a className={styles.face}> <Image  src="img/IMG_1154.jpg" height={160} width={250} /> 
- I am SeongHee</a>
+      </a>
      </Link>
       
-        <div>Park SeongHee</div>
-        <div>business administration ,computer science</div>
-        <div>21801026@handong.ac.kr</div>
-
+        <div><h3>NAME : Park SeongHee</h3></div>
+        <div><h3>MAJOR : business administration ,computer science</h3></div>
+        <div><h3>EMAIL : 21801026@handong.ac.kr</h3></div>
+        <br></br>
           <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
