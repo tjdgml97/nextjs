@@ -19,13 +19,12 @@ export default function FirstPost() {
    <h4>food</h4>
    <div>수박 ,불닭볶음면 , 딸기라떼 </div>
    <h4>movie</h4>
-
-   <div><Link href="/post/first-post">
-     <a >
-     <Image className={styles.bo} src="img/toto.jpg" height={100} width={100}  /> 
+   {/* className={styles.bo} */}
+   <div>
+     <Image  src="img/toto.jpg" height={100} width={100}  /> 
        {/* <p>Find in-depth information about Next.js features and API.</p> */}
-     </a>
-     </Link></div>
+     <Image  src="img/flipped.jpg" height={100} width={100}  />
+    </div>
    <h4>musical</h4>
    <h4>music</h4>
 
