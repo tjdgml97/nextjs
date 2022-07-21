@@ -13,9 +13,9 @@ export default function FirstPost() {
       </a>
      </Link>
 
-
+ 
 <div><h3>MBTI : </h3>
-<Link href="https://ddnews.co.kr/enfp-%ED%8A%B9%EC%A7%95/"><a><Image className={styles.bo} src="img/enfp.png" height={150} width={150}  /> </a></Link>
+<Link href="https://ddnews.co.kr/enfp-%ED%8A%B9%EC%A7%95/"><a><Image className={styles.bo} src="img/enfp.png" height={110} width={110}  /> </a></Link>
 <div> ENFP </div><br></br>
 </div>
    <h3>FAVORITE : </h3>
@@ -28,9 +28,7 @@ export default function FirstPost() {
        {/* <p>Find in-depth information about Next.js features and API.</p> */}
      <Image  src="img/flipped.jpg" height={100} width={100}  />
     </div>
-   <h4>musical</h4>
-   <h4>music</h4>
-
+ 
 
         <br></br>
           <footer className={styles.footer}>
