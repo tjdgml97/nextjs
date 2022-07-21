@@ -14,7 +14,9 @@ export default function FirstPost() {
      </Link>
 
 
-<div><h3>MBTI : </h3> ENFP <Link href="https://ddnews.co.kr/enfp-%ED%8A%B9%EC%A7%95/"><a><Image  src="img/toto.jpg" height={100} width={100}  /> </a></Link>
+<div><h3>MBTI : </h3>
+<Link href="https://ddnews.co.kr/enfp-%ED%8A%B9%EC%A7%95/"><a><Image className={styles.bo} src="img/enfp.jpg" height={100} width={100}  /> </a></Link>
+<div> ENFP </div>
 </div>
    <h3>FAVORITE : </h3>
    <h4>food</h4>
