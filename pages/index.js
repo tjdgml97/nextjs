@@ -55,12 +55,13 @@ export default function Home() {
           </a>
           </Link>
         
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
+        <Link href="/post/second">
+          <a  className={styles.card}>
           <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100} /> 
             <h3> TMI </h3>
             {/* <p>Learn about Next.js in an interactive course with quizzes!</p> */}
           </a> 
+         </Link>
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
