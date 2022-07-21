@@ -6,7 +6,11 @@ import Link from 'next/link'
 function Detail(){
 
 }
-
+{/* <Image
+width=""
+height=""
+src="img/IMG_1154.jpg"
+alt="profile"/><br></br> */}
 export default function Home() {
 
   
@@ -26,7 +30,7 @@ export default function Home() {
         </h2> */}
         
         {/* <Link href="post/first-post"></Link> */}
-        <h3 className={styles.face}>Hi<br></br><Image src="img/IMG_1154.jpg" alt="profile"/><br></br></h3>
+        <h3 className={styles.face}>Hi<br></br><img  src="img/IMG_1154.jpg"/><br></br></h3>
         <h2>I am SeongHee</h2> 
     
         <p className={styles.description}>
@@ -36,14 +40,14 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="profile.html" className={styles.card}> 
-          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" alt="profile"/> 
+          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={90} width={90} /> 
             <h3> PROFILE </h3>
 
             {/* <p>Find in-depth information about Next.js features and API.</p> */}
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" alt="TMI"/> 
+          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={90} width={90} /> 
             <h3> TMI </h3>
             {/* <p>Learn about Next.js in an interactive course with quizzes!</p> */}
           </a> 
@@ -52,7 +56,7 @@ export default function Home() {
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-           <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" alt="project"/> 
+          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={90} width={90} /> 
             <h3>PROJECT </h3>
             {/* <p>Discover and deploy boilerplate example Next.js projects.</p> */}
           </a>
