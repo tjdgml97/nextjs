@@ -6,6 +6,7 @@ import styles from '/styles/Home.module.css'
 export default function FirstPost() {
     return (
     <>
+    <div className={styles.container}>
      <h1>PROFILE</h1>
      <Link href="/">
      <a className={styles.face}> <Image  src="img/IMG_1154.jpg" height={160} width={250} /> 
@@ -45,6 +46,7 @@ export default function FirstPost() {
             <h3>PROJECT </h3>
             {/* <p>Discover and deploy boilerplate example Next.js projects.</p> */}
           </a>
+          </div>
 
           <footer className={styles.footer}>
         <a
@@ -58,7 +60,7 @@ export default function FirstPost() {
           </span>
         </a>
       </footer>
-      
+
 
         </div>
 
