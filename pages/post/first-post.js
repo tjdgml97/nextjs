@@ -13,9 +13,9 @@ export default function FirstPost() {
       </a>
      </Link>
       
-        <div><h3>NAME : Park SeongHee</h3></div>
-        <div><h3>MAJOR : business administration ,computer science</h3></div>
-        <div><h3>EMAIL : 21801026@handong.ac.kr</h3></div>
+        <div><h3>NAME : </h3><h4> Park SeongHee</h4></div>
+        <div><h3>MAJOR : </h3><h4>  business administration & computer science</h4></div>
+        <div><h3>EMAIL : </h3><h4> 21801026@handong.ac.kr</h4></div>
         <br></br>
           <footer className={styles.footer}>
         <a
