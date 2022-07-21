@@ -6,21 +6,23 @@ import styles from '/styles/Home.module.css'
 export default function FirstPost() {
     return (
     <>
-     <h1>First Post</h1>
-      <h3 className={styles.face}><img  src="/img/IMG_1154.jpg"/> I am SeongHee</h3>
-    
+     <h1>PROFILE</h1>
+     <Link href="/">
+     <a> <h3 className={styles.face}><img  src="/img/IMG_1154.jpg"/> I am SeongHee</h3></a>
+     </Link>
         <p className={styles.description}>
           {/* Get started by editing{' '} */}
           {/* <code className={styles.code}>pages/index.js</code> */}
         </p>
 
         <div className={styles.grid}>
+          <Link href="/post/first-post">
           <a href="profile.html" className={styles.card}>
           <img className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg"/> 
             <h3> PROFILE </h3>
-
             {/* <p>Find in-depth information about Next.js features and API.</p> */}
           </a>
+          </Link>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
           <img className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg"/> 
