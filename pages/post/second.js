@@ -12,22 +12,24 @@ export default function FirstPost() {
      <a className={styles.face}> <Image  src="img/IMG_1154.jpg" height={160} width={250} /> 
       </a>
      </Link>
-      
-        <div><h3>MBTI : </h3><h4> Park SeongHee</h4></div>
-        <div><h3>FAVORITE : </h3>
-        <h4>food</h4>
-        <div>수박 ,불닭볶음면 , 딸기라떼 </div>
-        <h4>movie</h4>
 
-        <div><Link href="/post/first-post">
-          <a  className={styles.card}>
-          <Image className={styles.bo} src="img/토토로.jpg" height={100} width={100}  /> 
-            {/* <p>Find in-depth information about Next.js features and API.</p> */}
-          </a>
-          </Link></div>
-        <h4>musical</h4>
-        <h4>music</h4>
-        <div><h3> : </h3><h4> 21801026@handong.ac.kr</h4></div>
+
+<div><h3>MBTI : </h3><h4> Park SeongHee</h4></div>
+   <h3>FAVORITE : </h3>
+   <h4>food</h4>
+   <div>수박 ,불닭볶음면 , 딸기라떼 </div>
+   <h4>movie</h4>
+
+   <div><Link href="/post/first-post">
+     <a  className={styles.card}>
+     <Image className={styles.bo} src="img/토토로.jpg" height={100} width={100}  /> 
+       {/* <p>Find in-depth information about Next.js features and API.</p> */}
+     </a>
+     </Link></div>
+   <h4>musical</h4>
+   <h4>music</h4>
+
+
         <br></br>
           <footer className={styles.footer}>
         <a
