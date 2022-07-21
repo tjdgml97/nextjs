@@ -8,7 +8,8 @@ export default function FirstPost() {
     <>
      <h1>PROFILE</h1>
      <Link href="/">
-     <a className={styles.face}><img  src="/img/IMG_1154.jpg"/> I am SeongHee</a>
+     <a className={styles.face}> <Image  src="img/IMG_1154.jpg" height={160} width={250} /> 
+ I am SeongHee</a>
      </Link>
         <p className={styles.description}>
           {/* Get started by editing{' '} */}
@@ -18,20 +19,20 @@ export default function FirstPost() {
         <div className={styles.grid}>
           <Link href="/post/first-post">
           <a className={styles.card}>
-          <img className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg"/> 
+          <Image className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100}  /> 
             <h3> PROFILE </h3>
             {/* <p>Find in-depth information about Next.js features and API.</p> */}
           </a>
           </Link>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-          <img className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg"/> 
+          <Image className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100}  /> 
             <h3> FAVORITE</h3>
             {/* <p>Learn about Next.js in an interactive course with quizzes!</p> */}
           </a> 
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-          <img className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg"/> 
+          <Image className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100}  /> 
             <h3>MBTI</h3>
             {/* <p>Learn about Next.js in an interactive course with quizzes!</p> */}
           </a> 
