@@ -7,7 +7,7 @@ export default function FirstPost() {
     return (
     <>
      <h1>First Post</h1>
-      <h3 className={styles.face}><img  src="/img/IMG_1154.jpg"/> I'm SeongHee</h3>
+      <h3 className={styles.face}><img  src="/img/IMG_1154.jpg"/> I am SeongHee</h3>
     
         <p className={styles.description}>
           {/* Get started by editing{' '} */}
@@ -15,7 +15,7 @@ export default function FirstPost() {
         </p>
 
         <div className={styles.grid}>
-          <a href="profile.html"> className={styles.card}>
+          <a href="profile.html" className={styles.card}>
           <img className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg"/> 
             <h3> PROFILE </h3>
 

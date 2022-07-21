@@ -26,8 +26,8 @@ export default function Home() {
         </h2> */}
         
         {/* <Link href="post/first-post"></Link> */}
-        <h3 className={styles.face}>Hi<br></br><img  src="img/IMG_1154.jpg"/><br></br></h3>
-        <h2>I'm SeongHee</h2> 
+        <h3 className={styles.face}>Hi<br></br><Image src="img/IMG_1154.jpg" alt="profile"/><br></br></h3>
+        <h2>I am SeongHee</h2> 
     
         <p className={styles.description}>
           {/* Get started by editing{' '} */}
@@ -36,14 +36,14 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="profile.html" className={styles.card}> 
-          <img className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg"/> 
+          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" alt="profile"/> 
             <h3> PROFILE </h3>
 
             {/* <p>Find in-depth information about Next.js features and API.</p> */}
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-          <img className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg"/> 
+          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" alt="TMI"/> 
             <h3> TMI </h3>
             {/* <p>Learn about Next.js in an interactive course with quizzes!</p> */}
           </a> 
@@ -52,7 +52,7 @@ export default function Home() {
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className={styles.card}
           >
-           <img className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg"/> 
+           <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" alt="project"/> 
             <h3>PROJECT </h3>
             {/* <p>Discover and deploy boilerplate example Next.js projects.</p> */}
           </a>
