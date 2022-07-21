@@ -30,7 +30,7 @@ export default function Home() {
         </h2> */}
         
         {/* <Link href="post/first-post"></Link> */}
-        <h3 className={styles.face}>Hi<br></br><Image width={100} height={100} src="img/IMG_1154.jpg"/><br></br></h3>
+        <h3 className={styles.face}>Hi<br></br><Image className={styles.bo} src="img/IMG_1154.jpg"  height={150}  width={150}  /><br></br></h3>
         <h2>I am SeongHee</h2> 
     
         <p className={styles.description}>
