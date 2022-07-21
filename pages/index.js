@@ -29,8 +29,10 @@ export default function Home() {
           Welcome <br></br>
         </h2> */}
         
+        {/* <Image src="img/IMG_1154.jpg" height={10} width={10} layout={"fill"}   objectFit={"cover"}/> */}
         {/* <Link href="post/first-post"></Link> */}
-        <h3 className={styles.face}>Hi<br></br><Image src="img/IMG_1154.jpg" height={10} width={10} layout={"fill"}   objectFit={"cover"}/><br></br></h3>
+        <h3 className={styles.face}>Hi<br></br><br></br></h3>
+        <Image  src="img/IMG_1154.jpg" height={120} width={120} /> 
         <h2>I am SeongHee</h2> 
     
         <p className={styles.description}>
