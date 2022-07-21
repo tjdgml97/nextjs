@@ -21,7 +21,7 @@ export default function FirstPost() {
    <h4>movie</h4>
 
    <div><Link href="/post/first-post">
-     <a  className={styles.card}>
+     <a >
      <Image className={styles.bo} src="img/toto.jpg" height={100} width={100}  /> 
        {/* <p>Find in-depth information about Next.js features and API.</p> */}
      </a>
