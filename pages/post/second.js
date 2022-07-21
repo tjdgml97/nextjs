@@ -3,20 +3,31 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '/styles/Home.module.css'
 
-export default function SecondPost() {
+export default function FirstPost() {
     return (
     <>
     <div className={styles.container}>
      <h1>PROFILE</h1>
      <Link href="/">
-     <a className={styles.face}> 
-     <Image  src="img/IMG_1154.jpg" height={160} width={250} /> 
+     <a className={styles.face}> <Image  src="img/IMG_1154.jpg" height={160} width={250} /> 
       </a>
      </Link>
       
-        <div><h3>NAME : </h3><h4> Park SeongHee</h4></div>
-        <div><h3>MAJOR : </h3><h4>  business administration & computer science</h4></div>
-        <div><h3>EMAIL : </h3><h4> 21801026@handong.ac.kr</h4></div>
+        <div><h3>MBTI : </h3><h4> Park SeongHee</h4></div>
+        <div><h3>FAVORITE : </h3>
+        <h4>food</h4>
+        <div>수박 ,불닭볶음면 , 딸기라떼 </div>
+        <h4>movie</h4>
+
+        <div><Link href="/post/first-post">
+          <a  className={styles.card}>
+          <Image className={styles.bo} src="img/토토로.jpg" height={100} width={100}  /> 
+            {/* <p>Find in-depth information about Next.js features and API.</p> */}
+          </a>
+          </Link></div>
+        <h4>musical</h4>
+        <h4>music</h4>
+        <div><h3> : </h3><h4> 21801026@handong.ac.kr</h4></div>
         <br></br>
           <footer className={styles.footer}>
         <a
