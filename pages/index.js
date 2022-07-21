@@ -53,6 +53,7 @@ export default function Home() {
             {/* <p>Find in-depth information about Next.js features and API.</p> */}
           </a>
           </Link>
+        
 
           <a href="https://nextjs.org/learn" className={styles.card}>
           <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100} /> 
