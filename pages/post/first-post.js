@@ -9,7 +9,7 @@ export default function FirstPost() {
     <div className={styles.container}>
      <h1>PROFILE</h1>
      <Link href="/">
-     <a className={styles.face}> <Image  src="img/IMG_1154.jpg" height={160} width={250} /> 
+     <a className={styles.face}> <Image  src="/img/IMG_1154.jpg" height={160} width={250} /> 
       </a>
      </Link>
       

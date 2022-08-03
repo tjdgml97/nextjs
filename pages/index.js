@@ -33,7 +33,7 @@ export default function Home() {
         {/* <Link href="post/first-post"></Link> */}
         <h3 className={styles.face}>Hi!!<br></br>
         </h3>
-              <Image  src="img/IMG_1154.jpg" height={160} width={250} /> 
+              <Image  src="/img/IMG_1154.jpg" height={160} width={250} /> 
         <h2>I am SeongHee</h2> 
     
         <p className={styles.description}>
@@ -57,7 +57,7 @@ export default function Home() {
         
         <Link href="/post/second">
           <a  className={styles.card}>
-          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100} /> 
+          <Image className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100} /> 
             <h3> TMI </h3>          
           </a> 
          </Link>
@@ -66,7 +66,7 @@ export default function Home() {
             href="https://github.com/tjdgml97/nextjs"
             className={styles.card}
           >
-          <Image className={styles.bo} src="img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100} /> 
+          <Image className={styles.bo} src="/img/FOfaQ3laAAAr_i6.jpeg" height={100} width={100} /> 
             <h3>PROJECT </h3>
             {/* <p>Discover and deploy boilerplate example Next.js projects.</p> */}
           </a>

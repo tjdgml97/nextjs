@@ -9,13 +9,13 @@ export default function FirstPost() {
     <div className={styles.container}>
      <h1>PROFILE</h1>
      <Link href="/">
-     <a className={styles.face}> <Image  src="img/IMG_1154.jpg" height={160} width={250} /> 
+     <a className={styles.face}> <Image  src="/img/IMG_1154.jpg" height={160} width={250} /> 
       </a>
      </Link>
 
  
 <div><h3>MBTI : </h3>
-<Link href="https://ddnews.co.kr/enfp-%ED%8A%B9%EC%A7%95/"><a><Image className={styles.bo} src="img/enfp.png" height={110} width={110}  /> </a></Link>
+<Link href="https://ddnews.co.kr/enfp-%ED%8A%B9%EC%A7%95/"><a><Image className={styles.bo} src="/img/enfp.png" height={110} width={110}  /> </a></Link>
 <div> ENFP </div><br></br>
 </div>
    <h3>FAVORITE : </h3>
@@ -24,9 +24,9 @@ export default function FirstPost() {
    <h4>movie</h4>
    {/* className={styles.bo} */}
    <div>
-     <Image  src="img/toto.jpg" height={100} width={100}  /> 
+     <Image  src="/img/toto.jpg" height={100} width={100}  /> 
        {/* <p>Find in-depth information about Next.js features and API.</p> */}
-     <Image  src="img/flipped.jpg" height={100} width={100}  />
+     <Image  src="/img/flipped.jpg" height={100} width={100}  />
     </div>
  
 
